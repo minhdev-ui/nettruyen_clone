@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./asset/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <title>Nettruyen clone</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="header">
+          <div class="header_logo">
+            <a href="#">
+              <img
+                src="http://st.imageinstant.net/data/logos/logo-nettruyen.png"
+                alt="Nettruyen"
+              />
+            </a>
+          </div>
+          <div class="search">
+            <input type="text" class="search_bar" placeholder="Tìm truyện..." />
+            <i class="fas fa-search search-icon"></i>
+            <i class="fas fa-comment notify-icon"></i>
+          </div>
+          <div class="header-btn">
+            <button class="btn btn_login">Đăng Nhập</button>
+            <span>/</span>
+            <button class="btn btn_register">Đăng Ký</button>
+          </div>
+        </div>
+      </header>
+      <div class="category">
+        <ul class="category-list">
+          <li class="category-item">
+            <a href="#" class="category-link">
+              <i class="fas fa-home"></i>
+            </a>
+          </li>
+          <li class="category-item">
+            <a href="" class="category-link"> HOT </a>
+          </li>
+          <li class="category-item">
+            <a href="" class="category-link">THEO DÕI</a>
+          </li>
+          <li class="category-item">
+            <a href="" class="category-link">LỊCH SỬ</a>
+          </li>
+          <li class="category-item">
+            <a href="" class="category-link">THỂ LOẠI</a>
+          </li>
+          <li class="category-item">
+            <a href="" class="category-link">XẾP HẠNG</a>
+          </li>
+          <li class="category-item">
+            <a href="" class="category-link">TÌM TRUYỆN</a>
+          </li>
+          <li class="category-item">
+            <a href="" class="category-link">CON GÁI</a>
+          </li>
+          <li class="category-item">
+            <a href="" class="category-link">CON TRAI</a>
+          </li>
+          <li class="category-item">
+            <a href="" class="category-link">GROUP</a>
+          </li>
+        </ul>
+      </div>
+      <!-- Content -->
+      <div class="wrap-content">
+        <div class="content">
+          <div class="recommend">
+            <h2 class="title">
+              TRUYỆN ĐỀ CỬ <i class="fas fa-angle-right"></i>
+            </h2>
+            <div class="slideshow"></div>
+            <div class="controller-btn">
+              <button class="prev-btn" onclick="nextSlide(-1)">
+                <i class="fas fa-angle-left"></i>
+              </button>
+              <button class="next-btn" onclick="nextSlide(1)">
+                <i class="fas fa-angle-right"></i>
+              </button>
+            </div>
+          </div>
+          <div class="new_update">
+            <h2 class="title">TRUYỆN MỚI CẬP NHẬT <i class="fas fa-angle-right"></i></h2>
+            <ul class="list_update"></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./asset/index.js"></script>
+    <script src="./asset/update.js"></script>
+  </body>
+</html>

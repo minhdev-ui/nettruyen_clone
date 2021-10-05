@@ -1,0 +1,229 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    background-image: url("http://s.nettruyenvip.com/Data/Sites/1/skins/comic/images/bg_header_2017.jpg");
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0px;
+}
+
+.header {
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search {
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.search_bar {
+    position: relative;
+    width: 410px;
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #999;
+    outline: none;
+}
+
+.search-icon {
+    position: absolute;
+    left: 59%;
+    cursor: pointer;
+}
+
+.header-btn span {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.header-btn .btn {
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.notify-icon {
+    font-size: 25px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.category {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #E4E4E4;
+}
+
+.category-list {
+    display: flex;
+    width: 1000px;
+    align-items: center;
+}
+
+.category-item {
+    padding: 10px;
+    border-right: 1px solid #ddd;
+}
+
+.category-link {
+    color: #000;
+}
+
+.category-item:hover {
+    background-color: #eee !important;
+    color: #AE4AD9;
+}
+
+.category-item:first-child {
+    background-color: #fff;
+    font-size: 18px;
+}
+
+.category-item:first-child .category-link {
+    color: #AE4AD9;
+}
+
+.wrap-content {
+    background-color: #EBEBEB;
+}
+
+.content {
+    margin: 0 auto;
+    width: 1060px;
+    padding: 10px 0px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.recommend {
+    padding: 0px 5px;
+}
+
+.title {
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #2980B9;
+}
+
+.slideshow {
+    width: 1050px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    transition: all .5s;
+}
+
+.slide {
+    padding: 0px 5px;
+}
+
+.slide.active {
+    display: block !important;
+}
+
+.slide img{
+    position: relative;
+    width: 200px;
+    height: 220px;
+}
+
+.controller-btn {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 1042px;
+    top: 200px;
+    left: 227px;
+}
+
+.controller-btn button {
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid #eee;
+    cursor: pointer;
+}
+
+.detail {
+    position: absolute;
+    display: block;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #fff;
+    background-image: url("http://s.nettruyenvip.com/Data/Sites/1/skins/comic/images/bg_over.png");
+    font-size: 14px;
+    bottom: 4px;
+    width: 200px;
+    padding: 10px 0px;
+}
+
+.name-detail {
+    display: block;
+    padding: 5px;
+}
+
+.chapter-detail {
+    font-weight: 100;
+}
+
+.list_update {
+    display: flex;
+    flex-wrap: wrap;
+    width: 830px;
+}
+
+.list_update-item {
+    padding: 0px 20px 40px 10px;
+    width: 200px;
+}
+
+.list_update-item img {
+    position: relative;
+    width: 180px;
+    height: 220px;
+}
+
+.follow-detail {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 400;
+    width: 180px;
+    top: 79%;
+    color: #fff;
+    background-color: #000;
+    opacity: 0.5;
+    padding: 5px 0px;
+}
